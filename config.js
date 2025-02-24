@@ -4,16 +4,16 @@ const chalk = require("chalk");
 
 //
 global.available = true;
-global.autoReadAll = true;
+global.autoReadAll = false;
 global.antitags = false;
 
 
 //auto functioner
-global.autoTyping = false;                //auto tying by default off.
-global.autoRecord = false;                //auto recording by default off.
+global.autoTyping = true;                //auto tying by default off.
+global.autoRecord = true;                //auto recording by default off.
 global.groupevent = false;                //This is the new variable for controlling group event handling.
-global.statusseen = false;                 //This is the new variable for controlling status seen.
-global.autoreadgc = true;
+global.statusseen = true;                 //This is the new variable for controlling status seen.
+global.autoreadgc = false;
 
 
 //
@@ -25,8 +25,8 @@ global.Owner = ["49491741711168", "4365022989060"];         //If you want singal
 global.OwnerNumber = ["49491741711168", "4365022989060"];   //If you want singal number so global.Owner = ['916297175943'] Change into your number.
 global.ownertag = ["49491741711168", "4365022989060"];
 global.OwnerName = "Exiqon & Baron";
-global.BotName = "Phoenix-BOT";
-global.packname = "By Phoenix Bot";                             //Do not change.
+global.BotName = "SEGZILLOR V16-BOT";
+global.packname = "By SEG Bot";                             //Do not change.
 global.author = "ig: 6u.cg";                               //Do not change.
 global.BotSourceCode = "https://github.com/7ucg"; //Do not change.
 global.SupportGroupLink = "https://chat.whatsapp.com/GXJA9IomUhaHyofAT4PlJQ";
@@ -42,8 +42,8 @@ global.openAiAPI = "sk-proj-Ihfu78OcDHN8CRWSybsNT3BlbkFJtR6xkgquGZAK8qvnoRj6";
 
 //
 global.location = "Deutschland, Unknown";
-global.reactmoji = "💞";
-global.themeemoji = "😂";
+global.reactmoji = "☠️";
+global.themeemoji = "🤘";
 global.vidmenu = { url: 'https://tenor.com/en-CA/view/anonymous-hacker-smooth-gif-10171911193797826570%9D%90%95-12-14' };
 global.websitex = "https://github.com/7ucg/Phoenix-MD";
 global.lolhuman = "Phoenix-BOT";
